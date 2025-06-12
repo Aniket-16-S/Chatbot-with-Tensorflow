@@ -1,0 +1,7 @@
+fastapi
+streamlit
+uvicorn 
+tensorflow
+nltk
+pydantic
+keras
