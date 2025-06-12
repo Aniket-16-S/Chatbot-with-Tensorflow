@@ -43,3 +43,6 @@ def save(modef:list = None) :
         with open("unsolved.json", 'w') as file :
             json.dump({'unA' : modef}, file)
 
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
