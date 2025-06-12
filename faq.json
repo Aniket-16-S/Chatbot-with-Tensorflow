@@ -1,0 +1,298 @@
+{
+  "intents": [
+  {
+    "tag": "greeting",
+    "patterns": [
+      "Hi",
+      "Hello",
+      "Hey there",
+      "Greetings",
+      "Good morning",
+      "Good afternoon",
+      "Good evening"
+    ],
+    "responses": [
+      "Hello!",
+      "Hi there!",
+      "Hey! How can I help you?",
+      "Greetings! What's on your mind?"
+    ]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": [
+      "Bye",
+      "Goodbye",
+      "See you later",
+      "Farewell",
+      "I'm leaving",
+      "Catch you later"
+    ],
+    "responses": [
+      "Goodbye!",
+      "See you later!",
+      "It was nice talking to you!",
+      "Bye! Have a great day."
+    ]
+  },
+  {
+    "tag": "name_inquiry",
+    "patterns": [
+      "What's your name?",
+      "Who are you?",
+      "What should I call you?",
+      "Do you have a name?",
+      "Your name?"
+    ],
+    "responses": [
+      "I am a chatbot designed to assist you.",
+      "I don't have a personal name, but you can call me your AI assistant.",
+      "You can refer to me as an AI.",
+      "I am a virtual assistant."
+    ]
+  },
+  {
+    "tag": "how_are_you",
+    "patterns": [
+      "How are you?",
+      "How's it going?",
+      "Are you doing well?",
+      "How do you feel?"
+    ],
+    "responses": [
+      "I'm doing great, thank you for asking!",
+      "As an AI, I don't have feelings, but I'm ready to help!",
+      "I'm functioning perfectly.",
+      "All systems go!"
+    ]
+  },
+  {
+    "tag": "thanks",
+    "patterns": [
+      "Thanks",
+      "Thank you",
+      "Appreciate it",
+      "That's helpful",
+      "Cheers"
+    ],
+    "responses": [
+      "You're welcome!",
+      "Happy to help!",
+      "No problem!",
+      "Glad I could assist."
+    ]
+  },
+  {
+    "tag": "weather_inquiry",
+    "patterns": [
+      "What's the weather like?",
+      "Tell me about the weather",
+      "Weather today?",
+      "Is it raining?",
+      "What's the forecast?"
+    ],
+    "responses": [
+      "I cannot provide real-time weather information as I don't have access to external services.",
+      "My apologies, I can't check the current weather.",
+      "I'm not equipped to give live weather updates."
+    ]
+  },
+  {
+    "tag": "time_inquiry",
+    "patterns": [
+      "What time is it?",
+      "Current time?",
+      "Tell me the time",
+      "What's the time now?"
+    ],
+    "responses": [
+      "I don't have access to real-time information such as the current time.",
+      "I'm unable to provide the current time.",
+      "As an AI, I don't have a concept of 'current time' in your local timezone."
+    ]
+  },
+  {
+    "tag": "date_inquiry",
+    "patterns": [
+      "What's the date today?",
+      "Today's date?",
+      "Tell me the date"
+    ],
+    "responses": [
+      "I don't have access to real-time information such as the current date.",
+      "I'm unable to provide the current date."
+    ]
+  },
+  {
+    "tag": "capabilities",
+    "patterns": [
+      "What can you do?",
+      "What are your capabilities?",
+      "How can you help me?",
+      "What do you do?",
+      "Tell me about your functions"
+    ],
+    "responses": [
+      "I can answer your questions, provide information, and help you brainstorm ideas.",
+      "I can assist with a wide range of topics and generate text based on your prompts.",
+      "My purpose is to provide information and engage in helpful conversation.",
+      "I can understand and generate human-like text to answer your queries."
+    ]
+  },
+  {
+    "tag": "agreement",
+    "patterns": [
+      "Okay",
+      "Alright",
+      "Got it",
+      "Understood",
+      "Yes"
+    ],
+    "responses": [
+      "Great!",
+      "Understood.",
+      "Alright then.",
+      "Perfect."
+    ]
+  },
+  {
+    "tag": "disagreement",
+    "patterns": [
+      "No",
+      "Not really",
+      "That's incorrect",
+      "I don't think so"
+    ],
+    "responses": [
+      "My apologies, please clarify.",
+      "I see. How can I correct that?",
+      "Let me try to understand better."
+    ]
+  },
+  {
+    "tag": "apology",
+    "patterns": [
+      "Sorry",
+      "My apologies",
+      "I apologize",
+      "Pardon me"
+    ],
+    "responses": [
+      "No worries.",
+      "It's okay.",
+      "Don't worry about it."
+    ]
+  },
+  {
+    "tag": "help",
+    "patterns": [
+      "Help",
+      "I need help",
+      "Can you help me?",
+      "Assistance",
+      "I'm stuck"
+    ],
+    "responses": [
+      "How can I assist you?",
+      "Tell me what you need help with.",
+      "I'm here to help. What's the issue?"
+    ]
+  },
+  {
+    "tag": "origin",
+    "patterns": [
+      "Where are you from?",
+      "Who created you?",
+      "Where were you made?",
+      "Your origin?"
+    ],
+    "responses": [
+      "I am a large language model, trained by Google.",
+      "I was developed by Google.",
+      "I am an AI, a product of Google's research."
+    ]
+  },
+  {
+    "tag": "age",
+    "patterns": [
+      "How old are you?",
+      "What's your age?",
+      "Are you new?"
+    ],
+    "responses": [
+      "I don't have an age in the human sense.",
+      "I am a program, not a person, so I don't age.",
+      "My 'age' is determined by when my models are updated."
+    ]
+  },
+  {
+    "tag": "favorite_color",
+    "patterns": [
+      "What's your favorite color?",
+      "Do you like any colors?",
+      "Your favorite color?"
+    ],
+    "responses": [
+      "As an AI, I don't have personal preferences like favorite colors.",
+      "I don't experience colors, so I don't have a favorite.",
+      "I don't have personal opinions or favorites."
+    ]
+  },
+  {
+    "tag": "joke",
+    "patterns": [
+      "Tell me a joke",
+      "Do you know any jokes?",
+      "Make me laugh",
+      "Joke please"
+    ],
+    "responses": [
+      "Why don't scientists trust atoms? Because they make up everything!",
+      "What do you call a fake noodle? An impasta!",
+      "Why did the scarecrow win an award? Because he was outstanding in his field!"
+    ]
+  },
+  {
+    "tag": "random_fact",
+    "patterns": [
+      "Tell me a fact",
+      "Give me a random fact",
+      "Interesting fact",
+      "Did you know?"
+    ],
+    "responses": [
+      "Did you know that honey never spoils?",
+      "The shortest war in history lasted only 38 to 45 minutes.",
+      "A group of owls is called a parliament."
+    ]
+  },
+  {
+    "tag": "gratitude_response",
+    "patterns": [
+      "You're the best",
+      "You're awesome",
+      "You're amazing",
+      "Great job"
+    ],
+    "responses": [
+      "Thank you for your kind words!",
+      "I'm glad I could be helpful.",
+      "I'm here to assist!"
+    ]
+  },
+  {
+    "tag": "confusion",
+    "patterns": [
+      "I don't understand",
+      "I'm confused",
+      "Can you explain that again?",
+      "What do you mean?"
+    ],
+    "responses": [
+      "Could you please rephrase your question?",
+      "Let me try explaining it differently.",
+      "What part is unclear?"
+    ]
+  }
+]
+}
