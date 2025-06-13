@@ -26,8 +26,6 @@ async def get_response(data: QueryModel):
         save(current)
     return {"answer": response}
 
-
-#Reads queries (all)
 def read() :
     try :
         with open("unsolved.json", 'r+') as file :
