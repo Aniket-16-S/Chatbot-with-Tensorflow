@@ -109,6 +109,7 @@ The chatbot uses a deep learning model to classify user intents. When a query is
 
 The core TensorFlow model architecture :
 This is a ***feedforward neural network*** *( F N N )*, also known as a *Multi-Layer Perceptron* (MLP), built with TensorFlow/Keras.
+note : Initial startup may take around 30 to 40 seconds to build the model and save it.
 
 ## Key characteristics:
 
